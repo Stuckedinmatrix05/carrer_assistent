@@ -1,14 +1,16 @@
-# health
+# Health Assistant
 
-This template should help get you started developing with Vue 3 in Vite.
+A comprehensive health management system built with Vue 3 and Vite.
+
+## Features
+- Health tracking
+- Doctor appointments
+- Chatbot assistance
+- User profile management
 
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
@@ -26,4 +28,24 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+## Backend Setup
+
+The backend is built with Node.js and Express. To set up the backend:
+
+```sh
+cd backend
+npm install
+npm start
+```
+
+## Chatbot API Setup
+
+The chatbot API is built with Python. To set up the chatbot:
+
+```sh
+cd chatbot_Api
+pip install -r requirements.txt
+python app.py
 ```
